@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Formulaire d'inscription</legend>
+    
+        <form>
+            
+            <div class="nom">
+                <label for="User Name">Nom</label>
+                <input type="Text Name">
+            </div>
+            <br><br>
+            <div class="prenom">
+                <label for="User Surname">Prénom</label>
+                <input type="text Surname">
+            </div>
+            <br><br>
+            <div class="mail">
+                <label for="User Email">Email</label>
+                <input type="text Email">
+            </div>
+
+            <br><br>
+
+            <div class="choixSexe">
+                <label for="Sex">Sexe</label>
+                <label class="masculin" for="Masculin">Masculin</label>
+                <input type="radio" id="sex" name="sex" value="Masculin">
+                <label class="feminin" for="Feminin">Feminin</label>
+                <input type="radio" id="sex" name="sex" value="Feminin">            
+            </div>
+            <br><br>
+            <div class="photoParagraf">
+                <div class="photo">
+                    <label for="Pays">photo</label>
+                    <button class="photos" type="textPhoto">
+                    <label for="SelectionnerFichier">Choisissez un fichier</label>
+                </div>
+                <p class="paragraf">Aucun fichier chsoisi</p>
+            </div>
+
+            <br><br>
+
+            <div class="pays">
+                <label for="pet-select">Pays</label>
+
+                <select class="allPays" name="pays" id="pays">
+                    <option value="France">France</option>
+                    <option value="Allemagne">Allemagne</option>
+                    <option value="Angleterre">Angleterre</option>
+                    <option value="Suisse">Suisse</option>
+                    <option value="Espagne">Espagne</option>
+                    <option value="Portugual">Portugual</option>
+                    <option value="Italie">Italie</option>
+                </select>
+            </div>
+
+            <br><br>
+
+            <div class="langages">
+                <label for="langages">Les langages préferés</label>
+
+                <select multiple name="langages" id="langages">
+                    <option value="java">Java</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="PHP">PHP</option>                
+                </select>
+                <label for="Message">(Pour faire plusieurs choix maintenir la touche CTRL enfoncée)</label>
+            </div>
+
+            <br><br>
+
+            <div class="activites">            
+                <label for="activités">Domaine d'activités</label>
+                <input  class="informatique"  type="radio" id="activités" name="activités" value="Domaine">
+                <label for="Informatique">Informatique</label>
+                <input type="radio" id="activités" name="activités" value="domaine">
+                <label for="Gestion">Gestion</label>
+                <input type="radio" id="activités" name="activités" value="domaine">
+                <label for="Pédagogie">Pédagogie</label>
+            </div>
+
+            <br><br>
+            
+            <div class="bouton">
+                <button type="submit" class="Envoi">Envoyer</button>
+                <br>
+                <button type="reset" class="annuler">Annuler</button>
+            </div>
+
+            
+        </form>
+    </fieldset>
+</body>
+</html>

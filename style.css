@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+fieldset{
+    width: 60%;
+    background-color: blanchedalmond;
+    
+}
+.nom, .prenom, .mail{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.choixSexe{
+    width: 40%;
+    height: auto;
+    margin: 0 0 0 3%;
+}
+.sex{
+    margin: 0 0 0 30%;
+}
+.masculin{
+    margin: 0 0 0 16%;
+}
+.photoParagraf{
+    width: 60%;
+    height: auto;
+    display: flex;    
+    align-items: center;
+    margin: 0 0 0 3%;
+}
+.photos{
+    position: absolute;
+    left: 28%;
+}
+p{
+    margin: 0 0 0 40%;
+}
+.pays, .langages, .activites{
+    margin: 0 0 0 3%;
+}
+.allPays{
+    margin: 0 0 0 7%;
+}
+.informatique{
+    margin: 0 0 0 4%;
+}
+.bouton{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
