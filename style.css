@@ -19,6 +19,14 @@ fieldset{
     display: flex;
     justify-content: space-around;
 }
+.opacity p{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 400%;
+    top: 42%; left: -15%;
+    transform: rotate(-50deg);
+    opacity: 0.22;
+}
 .choixSexe{
     width: 40%;
     height: auto;
